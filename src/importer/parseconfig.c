@@ -487,7 +487,7 @@ set_default_configuration(struct TailseekerConfig *cfg)
     cfg->lane = cfg->tile = cfg->total_cycles = cfg->index_start =
         cfg->threep_start = cfg->threep_length =
         cfg->fivep_start = cfg->fivep_length = -1;
-    cfg->threep_seqqual_output_length = 100;
+    cfg->threep_seqqual_output_length = 250;
 
     cfg->keep_no_delimiter = 0;
     cfg->keep_low_quality_balancer = 0;
